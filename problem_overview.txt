@@ -1,0 +1,21 @@
+Our data for this week comes from the US Department of Education, which tracks a huge number of data points regarding universities — both the institutions and their students — in a program they call IPEDS, short for Integrated Postsecondary Education Data System. From the IPEDS site (https://nces.ed.gov/ipeds), you can select and retrieve a wide variety of information.
+
+I chose to retrieve, from the Digest of Education Statistics, a table showing the total number of students majoring in each of 30 different areas of study. You can view the table at https://nces.ed.gov/programs/digest/d21/tables/dt21_322.10.asp. Better yet, you can download the file from:
+
+https://nces.ed.gov/programs/digest/d21/tables/xls/tabn322.10.xls
+
+Our questions for this week are:
+1.	Retrieve the Excel file with selected years, and turn it into a data frame.
+2.	Remove the line numbering the surveys. Remove the total. And remove the lines at the bottom, after "Other and not classified".
+3.	Remove the \n\ markings (for footnotes) from the "Field of study" column
+4.	Remove newlines and other extraneous whitespace from the "Field of study" column
+5.	Set the "Field of study" column to be the index.
+6.	Which majors have had the greatest *increase* since the survey began in 1970-1971?
+7.	Display the numbers with a comma before every three digits -- so that instead of showing "1000" it shows "1,000"
+8.	Which majors have had the greatest *decrease* since the survey began in 1970-1971?
+9.	If we only look at the last 10 years of the study (i.e., starting in 2010-11), do we see similar changes in majors?
+10.	What percentage decline do we see in all fields containing the word "art," "language," "history," or "culture" in their names in the last 10 years?
+
+The learning goals for this week are include cleaning unwanted rows, cleaning string data, selecting columns, and working with axes.
+
+**********Taken from the Bamboo Weekly, an weekly enewsletter by Reuven Lerner that discusses the real world application of Python and data analysis.*****************
